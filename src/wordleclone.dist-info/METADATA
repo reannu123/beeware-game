@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: wordleclone
+Formal-Name: Beeware Game - Wordle
+App-ID: instrella.reannuemmanuel.beeware-game-wordle
+Version: 0.0.1
+Home-page: https://github.com/reannu123/beeware-wordle-clone
+Author: Reannu Emmanuel Instrella
+Author-email: reannumon123@gmail.com
+Summary: Clone of wordle using Beeware in Python

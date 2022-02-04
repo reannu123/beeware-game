@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Beeware Game - Wordle"
+bundle = "instrella.reannuemmanuel"
+version = "0.0.1"
+url = "https://github.com/reannu123/beeware-wordle-clone"
+license = "BSD license"
+author = 'Reannu Emmanuel Instrella'
+author_email = "reannumon123@gmail.com"
+
+[tool.briefcase.app.wordleclone]
+formal_name = "Beeware Game - Wordle"
+description = "Clone of wordle using Beeware in Python"
+icon = "src/wordleclone/resources/wordleclone"
+sources = ['src/wordleclone']
+requires = []
+
+
+[tool.briefcase.app.wordleclone.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.wordleclone.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.wordleclone.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.wordleclone.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.wordleclone.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
